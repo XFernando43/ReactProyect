@@ -1,13 +1,11 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import Main from './components/main'
 
 const App =()=>{
-  const url = import.meta.env.BASE_URL;
+  const url = import.meta.env.VITE_BASE_URL;
   return (
     <>
-    MAIN
+    <Main url={url}/>
     </>
   );
 }
