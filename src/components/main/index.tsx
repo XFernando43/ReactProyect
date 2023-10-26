@@ -1,9 +1,9 @@
-interface Props{
-    url:string;
-}
+import {Button} from '../style.components';
 
-const Main = ({ url }:Props): JSX.Element =>{
-    return (<>{url}</>)
+const Main = (): JSX.Element =>{
+    return (
+        <Button>HOLA</Button>
+    )
 };
 
 export default Main;
